@@ -1,0 +1,41 @@
+# Python pycache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+venv/
+.env
+
+# Large Assets and Pretrained Weights
+weights/**
+!weights/**/
+!weights/**/*.gitkeep
+vfms/**
+!vfms/**/
+!vfms/**/*.gitkeep
+*.tar.zst
+*.tar
+*.zst
+*.zip
+*.pt
+*.npz
+
+# Outputs & Temporary Files
+out*/
+tmp/
+resolve_jobs/
+resolve_plugin/resolve_config.json
+*.mov
+*.mp4
+*.exr
+*.png
+*.jpg
+*.jpeg
+*.f16
+*.f32
+
+# Local / studio-specific files
+path_mappings.json
+.claude/
